@@ -1,0 +1,51 @@
+{
+  "name": "@skivvy/skivvy-package-serve",
+  "version": "0.1.0",
+  "description": "Serve files using Browsersync",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "test"
+  ],
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "eslint index.js lib test && mocha --reporter spec"
+  },
+  "keywords": [
+    "skivvy-package",
+    "serve",
+    "server",
+    "browser-sync",
+    "browsersync",
+    "connect"
+  ],
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.7.5",
+    "promise": "^7.0.1"
+  },
+  "devDependencies": {
+    "@skivvy/project-base": "latest",
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
+    "eslint": "latest",
+    "mocha": "^2.0.0",
+    "rewire": "^2.3.3",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skivvyjs/skivvy-package-serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skivvyjs/skivvy-package-serve/issues"
+  },
+  "homepage": "https://github.com/skivvyjs/skivvy-package-serve#readme"
+}
