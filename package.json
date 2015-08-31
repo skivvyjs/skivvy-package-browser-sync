@@ -1,6 +1,6 @@
 {
   "name": "@skivvy/skivvy-package-serve",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Serve files using Browsersync",
   "main": "index.js",
   "directories": {
